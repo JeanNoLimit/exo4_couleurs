@@ -1,6 +1,6 @@
 #container{
     min-width: 1000px;
-    min-height: 1000px;
+    max-height: 900px;
     display: flex;
     justify-content: center;
 
@@ -11,10 +11,12 @@
     height: 900px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;
+    align-content: flex-start   
 }
 
 .carre{
     width: 60px;
-    height: 60px;    
+    height: 60px;
+    background-color: blueviolet;    /* A gerder uniquement pour le test affichage*/
 }
